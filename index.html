@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #222;
+        }
+
+        header .title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact span {
+            margin: 0 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 18px;
+            color: #222;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 15px;
+            color: #444;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #f0f0f0;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .job, .edu {
+            margin-bottom: 18px;
+        }
+
+        .job h3, .edu h3 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .job .meta, .edu .meta {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .job ul {
+            padding-right: 20px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .job li {
+            margin-bottom: 4px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 25px 20px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>نام و نام خانوادگی</h1>
+            <div class="title">عنوان شغلی شما</div>
+            <div class="contact">
+                <span>email@example.com</span> |
+                <span>0912xxxxxxx</span> |
+                <span>linkedin.com/in/yourname</span>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2>درباره من</h2>
+            <p>
+                اینجا یک خلاصه کوتاه درباره خودتان بنویسید. مثلاً چند سال سابقه کار دارید، در چه زمینه‌هایی تخصص دارید و چه چیزی شما را متمایز می‌کند.
+            </p>
+        </section>
+
+        <section>
+            <h2>مهارت‌ها</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Git</span>
+                <span class="skill">کار تیمی</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>سوابق کاری</h2>
+            
+            <div class="job">
+                <h3>سمت شغلی — نام شرکت</h3>
+                <div class="meta">۱۴۰۱ – اکنون | تهران</div>
+                <ul>
+                    <li>توضیح مختصر از مسئولیت‌ها و دستاوردها</li>
+                    <li>نمونه دیگری از کارهای انجام‌شده</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>سمت شغلی قبلی — نام شرکت</h3>
+                <div class="meta">۱۳۹۸ – ۱۴۰۱ | تهران</div>
+                <ul>
+                    <li>توضیح مختصر از مسئولیت‌ها</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>تحصیلات</h2>
+            <div class="edu">
+                <h3>کارشناسی — رشته</h3>
+                <div class="meta">دانشگاه ... | ۱۳۹۴ – ۱۳۹۸</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
